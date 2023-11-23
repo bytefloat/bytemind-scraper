@@ -1,9 +1,11 @@
 import { Hono } from "hono";
 import { poweredBy } from "hono/powered-by";
+import { cors } from "hono/cors";
 
 const app = new Hono();
 
 app.use("*", poweredBy());
+app.use("*", cors());
 
 app.get("/", (c) => {
   return c.text("Hello Hono!");
