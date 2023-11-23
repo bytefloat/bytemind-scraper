@@ -1,16 +1,16 @@
 {
-  "name": "hono-minimal",
+  "name": "bytemind-scraper",
   "private": true,
   "version": "0.0.1",
   "main": "src/index.ts",
   "scripts": {
     "test": "jest --verbose",
     "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler publish src/index.ts"
+    "deploy": "wrangler deploy"
   },
   "license": "MIT",
   "dependencies": {
-    "hono": "^2.5.7"
+    "hono": "^3.10.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20221111.1",
