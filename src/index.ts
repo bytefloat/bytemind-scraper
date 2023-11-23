@@ -11,6 +11,10 @@ app.get("/", (c) => {
   return c.text("Hello Hono!");
 });
 
+app.get("/ping", (c) => {
+  return c.text("pong");
+});
+
 // Custom Not Found Message
 app.notFound((c) => {
   return c.text("404 Not Found", 404);
