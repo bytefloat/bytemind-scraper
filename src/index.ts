@@ -23,7 +23,7 @@ app.get("/nrta", async (c) => {
 
   const headers = {
     "accept-language": "en-US,en;q=0.6",
-    "Referer": "https://www.nrta.gov.cn/col/col38/index.html",
+    Referer: "https://www.nrta.gov.cn/col/col38/index.html",
     "Referrer-Policy": "strict-origin-when-cross-origin",
     "user-agent":
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 uacq",
@@ -117,8 +117,11 @@ app.get("/gallerix", async (c) => {
     const $record = $(element);
 
     const imageSrc = $record.find("img").attr("src");
-    const imageUrl = imageSrc.startsWith("//") ? "https:" + imageSrc : imageSrc;
-
+    let imageUrl = imageSrc.startsWith("//") ? "https:" + imageSrc : imageSrc;
+    imageUrl = imageUrl.replace(
+      /v\.gallerix\.org|cdn\.gallerix\.asia|x\.gallerix\.ru/gi,
+      "i.14159.mov",
+    );
     // Get the artist's name and the number of images
     // Note that the artist's name is in the 'alt' attribute of the image, and the number is bolded just before the <br> tag
     const artistName = $record.find("img").attr("alt");
