@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.0.0-rc.12
     version: 1.0.0-rc.12
   hono:
-    specifier: ^3.12.1
-    version: 3.12.1
+    specifier: ^3.12.2
+    version: 3.12.2
   pdf-parse:
     specifier: ^1.1.1
     version: 1.1.1
@@ -2606,8 +2606,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /hono@3.12.1:
-    resolution: {integrity: sha512-wCvww2YZ04whKJVXHDwtnx0x5Jzj0xtVUkguyj1zRDQ4qW1yKWcUTNCOa/H/wMHrHtXJmymlpIZIGUm3MwXlHA==}
+  /hono@3.12.2:
+    resolution: {integrity: sha512-h8MlaLiWEeiqMtpQBBhWor4UTu/8bYWuv0yc7DaCRsG3Ny2rXdkXzrYrgc+FWXoyh06CL2QDB/HbjJ9XJLjEhw==}
     engines: {node: '>=16.0.0'}
     dev: false
 
