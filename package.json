@@ -18,7 +18,7 @@
     "pdf2json": "^3.0.5"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240312.0",
+    "@cloudflare/workers-types": "^4.20240314.0",
     "@types/cheerio": "^0.22.35",
     "@types/jest": "^29.5.12",
     "esbuild": "^0.20.1",
