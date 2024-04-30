@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.1.1
     version: 1.1.1
   pdf2json:
-    specifier: ^3.0.5
-    version: 3.0.5
+    specifier: ^3.1.0
+    version: 3.1.0
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -1480,11 +1480,6 @@ packages:
     dependencies:
       '@types/yargs-parser': 21.0.3
     dev: true
-
-  /@xmldom/xmldom@0.8.10:
-    resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
-    engines: {node: '>=10.0.0'}
-    dev: false
 
   /acorn-walk@8.3.0:
     resolution: {integrity: sha512-FS7hV565M5l1R08MXqo8odwMTB02C2UqzB17RVgu9EyuYFBqJZ3/ZY97sQD5FewVu1UyDFc1yztUDrAwT0EypA==}
@@ -3836,12 +3831,10 @@ packages:
       - supports-color
     dev: false
 
-  /pdf2json@3.0.5:
-    resolution: {integrity: sha512-Un1yLbSlk/zfwrltgguskExIioXZlFSFwsyXU0cnBorLywbTbcdzmJJEebh+U2cFCtR7y8nDs5lPHAe7ldxjZg==}
+  /pdf2json@3.1.0:
+    resolution: {integrity: sha512-DFu5/923R4sdysKD+lrPEsm67trQjgdpxT0Y2PVVLCYA0W4nGBCsBqckus7lGGRfLCnKKpdoK0WWJyFYpYIJbQ==}
     engines: {node: '>=18.12.1', npm: '>=8.19.2'}
     hasBin: true
-    dependencies:
-      '@xmldom/xmldom': 0.8.10
     dev: false
     bundledDependencies:
       - '@xmldom/xmldom'
