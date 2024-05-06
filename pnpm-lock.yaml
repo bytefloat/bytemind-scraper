@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.1.1
     version: 1.1.1
   pdf2json:
-    specifier: ^3.1.1
-    version: 3.1.1
+    specifier: ^3.1.2
+    version: 3.1.2
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -3831,8 +3831,8 @@ packages:
       - supports-color
     dev: false
 
-  /pdf2json@3.1.1:
-    resolution: {integrity: sha512-HJKURDXfsriZLvPPEQyu+lNhNHbqwoLkwnLqkTogIH/yrouFz5kTn56/r62kUq39wYVs5gbkP9/UZQgYegH3Dg==}
+  /pdf2json@3.1.2:
+    resolution: {integrity: sha512-vHYIMvT5+ott2djw4e4A2o4LQtxkFoZd1N7po0FG82Hs1o3B/dhKLHtZDo4Y9+WnTkSEGcD0YaNHsD9X9tl/dg==}
     engines: {node: '>=18.12.1', npm: '>=8.19.2'}
     hasBin: true
     dev: false
