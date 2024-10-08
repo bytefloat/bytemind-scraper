@@ -26,6 +26,6 @@
     "jest": "^29.3.1",
     "jest-environment-miniflare": "^2.14.3",
     "prettier": "^3.3.3",
-    "wrangler": "^3.80.1"
+    "wrangler": "^3.80.2"
   }
 }
