@@ -22,8 +22,8 @@ importers:
         version: 3.1.4
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20241106.0
-        version: 4.20241106.0
+        specifier: ^4.20241112.0
+        version: 4.20241112.0
       '@types/cheerio':
         specifier: ^0.22.35
         version: 0.22.35
@@ -47,7 +47,7 @@ importers:
         version: 3.3.3
       wrangler:
         specifier: ^3.86.1
-        version: 3.86.1(@cloudflare/workers-types@4.20241106.0)
+        version: 3.86.1(@cloudflare/workers-types@4.20241112.0)
 
 packages:
 
@@ -266,8 +266,8 @@ packages:
     resolution: {integrity: sha512-46cP5FCrl3TrvHeoHLb5SRuiDMKH5kc9Yvo36SAfzt8dqJI/qJRoY1GP3ioHn/gP7v2QIoUOTAzIl7Ml7MnfrA==}
     engines: {node: '>=16.7.0'}
 
-  '@cloudflare/workers-types@4.20241106.0':
-    resolution: {integrity: sha512-pI4ivacmp+vgNO/siHDsZ6BdITR0LC4Mh/1+yzVLcl9U75pt5DUDCOWOiqIRFXRq6H65DPnJbEPFo3x9UfgofQ==}
+  '@cloudflare/workers-types@4.20241112.0':
+    resolution: {integrity: sha512-Q4p9bAWZrX14bSCKY9to19xl0KMU7nsO5sJ2cTVspHoypsjPUMeQCsjHjmsO2C4Myo8/LPeDvmqFmkyNAPPYZw==}
 
   '@cnakazawa/watch@1.0.4':
     resolution: {integrity: sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==}
@@ -2694,7 +2694,7 @@ snapshots:
       mime: 3.0.0
       zod: 3.22.4
 
-  '@cloudflare/workers-types@4.20241106.0': {}
+  '@cloudflare/workers-types@4.20241112.0': {}
 
   '@cnakazawa/watch@1.0.4':
     dependencies:
@@ -3138,7 +3138,7 @@ snapshots:
 
   '@miniflare/shared-test-environment@2.14.4':
     dependencies:
-      '@cloudflare/workers-types': 4.20241106.0
+      '@cloudflare/workers-types': 4.20241112.0
       '@miniflare/cache': 2.14.4
       '@miniflare/core': 2.14.4
       '@miniflare/d1': 2.14.4
@@ -5147,7 +5147,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20241106.1
       '@cloudflare/workerd-windows-64': 1.20241106.1
 
-  wrangler@3.86.1(@cloudflare/workers-types@4.20241106.0):
+  wrangler@3.86.1(@cloudflare/workers-types@4.20241112.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.7.1
@@ -5169,7 +5169,7 @@ snapshots:
       workerd: 1.20241106.1
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20241106.0
+      '@cloudflare/workers-types': 4.20241112.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
