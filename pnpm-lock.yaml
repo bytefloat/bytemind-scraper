@@ -46,8 +46,8 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       wrangler:
-        specifier: ^3.88.0
-        version: 3.88.0(@cloudflare/workers-types@4.20241112.0)
+        specifier: ^3.90.0
+        version: 3.90.0(@cloudflare/workers-types@4.20241112.0)
 
 packages:
 
@@ -262,8 +262,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-shared@0.7.1':
-    resolution: {integrity: sha512-46cP5FCrl3TrvHeoHLb5SRuiDMKH5kc9Yvo36SAfzt8dqJI/qJRoY1GP3ioHn/gP7v2QIoUOTAzIl7Ml7MnfrA==}
+  '@cloudflare/workers-shared@0.8.0':
+    resolution: {integrity: sha512-1OvFkNtslaMZAJsaocTmbACApgmWv55uLpNj50Pn2MGcxdAjpqykXJFQw5tKc+lGV9TDZh9oO3Rsk17IEQDzIg==}
     engines: {node: '>=16.7.0'}
 
   '@cloudflare/workers-types@4.20241112.0':
@@ -1793,8 +1793,8 @@ packages:
     resolution: {integrity: sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw==}
     engines: {node: '>=12'}
 
-  miniflare@3.20241106.0:
-    resolution: {integrity: sha512-PjOoJKjUUofCueQskfhXlGvvHxZj36UAJAp1DnquMK88MFF50zCULblh0KXMSNM+bXeQYA94Gj06a7kfmBGxPw==}
+  miniflare@3.20241106.1:
+    resolution: {integrity: sha512-dM3RBlJE8rUFxnqlPCaFCq0E7qQqEQvKbYX7W/APGCK+rLcyLmEBzC4GQR/niXdNM/oV6gdg9AA50ghnn2ALuw==}
     engines: {node: '>=16.13'}
     hasBin: true
 
@@ -2370,8 +2370,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.88.0:
-    resolution: {integrity: sha512-1yM5cgerjKkIBL9GOzIWhl8MsyEGNTsN4emJCiLLHJFz52TSNjJJlMbd1x0hX351mfy2MsGgUqKcx8iRL51PcQ==}
+  wrangler@3.90.0:
+    resolution: {integrity: sha512-E/6E9ORAl987+3kP8wDiE3L1lj9r4vQ32/dl5toIxIkSMssmPRQVdxqwgMxbxJrytbFNo8Eo6swgjd4y4nUaLg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -2669,7 +2669,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20241106.1':
     optional: true
 
-  '@cloudflare/workers-shared@0.7.1':
+  '@cloudflare/workers-shared@0.8.0':
     dependencies:
       mime: 3.0.0
       zod: 3.22.4
@@ -4544,7 +4544,7 @@ snapshots:
 
   mimic-fn@4.0.0: {}
 
-  miniflare@3.20241106.0:
+  miniflare@3.20241106.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.11.2
@@ -5101,10 +5101,10 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20241106.1
       '@cloudflare/workerd-windows-64': 1.20241106.1
 
-  wrangler@3.88.0(@cloudflare/workers-types@4.20241112.0):
+  wrangler@3.90.0(@cloudflare/workers-types@4.20241112.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
-      '@cloudflare/workers-shared': 0.7.1
+      '@cloudflare/workers-shared': 0.8.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
@@ -5112,7 +5112,7 @@ snapshots:
       date-fns: 4.1.0
       esbuild: 0.17.19
       itty-time: 1.0.6
-      miniflare: 3.20241106.0
+      miniflare: 3.20241106.1
       nanoid: 3.3.7
       path-to-regexp: 6.3.0
       resolve: 1.22.8
