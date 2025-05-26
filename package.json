@@ -15,7 +15,7 @@
     "cheerio": "1.0.0",
     "hono": "^3.12.12",
     "pdf-parse": "^1.1.1",
-    "pdf2json": "^3.1.5"
+    "pdf2json": "^3.1.6"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250523.0",
