@@ -18,8 +18,8 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1
       pdf2json:
-        specifier: ^3.2.0
-        version: 3.2.0
+        specifier: ^3.2.1
+        version: 3.2.1
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250912.0
@@ -2127,8 +2127,8 @@ packages:
     resolution: {integrity: sha512-v6ZJ/efsBpGrGGknjtq9J/oC8tZWq0KWL5vQrk2GlzLEQPUDB1ex+13Rmidl1neNN358Jn9EHZw5y07FFtaC7A==}
     engines: {node: '>=6.8.1'}
 
-  pdf2json@3.2.0:
-    resolution: {integrity: sha512-5RJYU5zWFXTQ5iRXAo75vlhK5ybZOyqEyg/szw2VtHc6ZOPcC7ruX4nnXk1OqqlY56Z7XT+WCFhV+/XPj4QwtQ==}
+  pdf2json@3.2.1:
+    resolution: {integrity: sha512-Ktz7y9gN6qfIiuZUUrdoXwhaBP5xL8ovwxLWey7ey+oCija3dk01vQ2RSpfwwsFu/sKd7el1hwFPfcX+XgxFiQ==}
     engines: {node: '>=20.18.0'}
     hasBin: true
 
@@ -2493,6 +2493,9 @@ packages:
   use@3.1.1:
     resolution: {integrity: sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==}
     engines: {node: '>=0.10.0'}
+
+  user@0.0.0:
+    resolution: {integrity: sha512-eRNM5isOvr6aEFAGi1CqAkmLkYxW2NJ5ThhbD+6IJXYKM1mo7Gtxx4mQIveHz/5K3p/SVnlW9k17ETn+QAu8IQ==}
 
   v8-to-istanbul@9.2.0:
     resolution: {integrity: sha512-/EH/sDgxU2eGxajKdwLCDmQ4FWq+kpi3uCmBGpw1xJtnAxEjlD8j8PEiGWpCIMIs3ciNAgH0d3TTJiUkYzyZjA==}
@@ -4990,7 +4993,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  pdf2json@3.2.0: {}
+  pdf2json@3.2.1:
+    dependencies:
+      user: 0.0.0
 
   picocolors@1.0.0: {}
 
@@ -5353,6 +5358,8 @@ snapshots:
   urlpattern-polyfill@4.0.3: {}
 
   use@3.1.1: {}
+
+  user@0.0.0: {}
 
   v8-to-istanbul@9.2.0:
     dependencies:
