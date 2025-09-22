@@ -12,14 +12,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "cheerio": "1.1.0",
+    "cheerio": "1.1.2",
     "hono": "^3.12.12",
     "pdf-parse": "^1.1.1",
     "pdf2json": "^3.2.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250919.0",
-    "@types/cheerio": "^0.22.35",
+    "@types/cheerio": "^1.0.0",
     "@types/jest": "^29.5.14",
     "esbuild": "^0.25.10",
     "esbuild-jest": "^0.5.0",
