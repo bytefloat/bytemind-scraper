@@ -14,7 +14,7 @@
   "dependencies": {
     "cheerio": "1.1.0",
     "hono": "^3.12.12",
-    "pdf-parse": "^1.1.1",
+    "pdf-parse": "^2.1.6",
     "pdf2json": "^3.2.2"
   },
   "devDependencies": {
